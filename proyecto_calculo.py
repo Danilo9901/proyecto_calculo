@@ -7,7 +7,6 @@ Este código fue generado por:
 https://github.com/ejdecena/calculo_numerico/codigos/generar_proyecto_pr.py
 """
 
-
 def Alejandro_27525819():
     """
     Recibe como parámetro una lista y retorna el promedio de la lista.
@@ -90,11 +89,19 @@ def Mauricio_27202233():
     pass
 
 
-def Miguel_26842695():
+def Miguel_26842695(lista):
     """
     Recibe como parámetro una lista y retorna el mínimo valor de la lista.
     """
-    pass
+    
+    min= lista[0]
+    
+    for i in lista:
+        if i < min:
+            min=i
+
+    return min
+    
 
 
 def Norlie_26707950():
