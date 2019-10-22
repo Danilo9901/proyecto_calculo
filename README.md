@@ -10,6 +10,8 @@ Los pasos para ejecutar el *workflow Pull-Request* (PR) son los siguientes:
 * **PASO 4**: Haga `git push` para actualizar su repositorio remoto en GitHub.
 * **PASO 5**: Solicite al propietario del proyecto (el profesor) el Pull-Request.
 
-**NOTA 1**: Asegúrese que su función se ejecute correctamente, ya que solo se recibirá UNA y solo una petición de PR por participante.
+**NOTA 1**: Solo se recibirá UNA y solo una petición de PR por participante.
 
-**NOTA 2**: Se recibirán solicitudes de PR hasta el día **jueves 25 de octubre de 2019, 11:59 pm**, SIN PRÓRROGA.
+**NOTA 2**: Marque con **Watch** este repositorio para que reciba las notificaciones. Cualquier duda o pregunta sobre este proyecto, abra un **Issue**.
+
+**NOTA 3**: Se recibirán solicitudes de PR hasta el día **jueves 25 de octubre de 2019, 11:59 pm**, SIN PRÓRROGA.
