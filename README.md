@@ -12,4 +12,4 @@ Los pasos para ejecutar el *workflow Pull-Request* (PR) son los siguientes:
 
 **NOTA 1**: Asegúrese que su función se ejecute correctamente, ya que solo se recibirá UNA y solo una petición de PR por participante.
 
-**NOTA 2**: Se recibirán solicitudes de PR hasta el día **jueves 25 de octubre de 2019, 11:59 pm**, sin prórroga.
+**NOTA 2**: Se recibirán solicitudes de PR hasta el día **jueves 25 de octubre de 2019, 11:59 pm**, SIN PRÓRROGA.
