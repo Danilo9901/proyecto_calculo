@@ -64,7 +64,7 @@ def Hector_25967387():
     pass
 
 
-def Jesus_22998438():
+def Jesus_22998438(cadena):
     """
     Recibe como parámetro una cadena y retorma una lista con las consonantes de la cadena.
     """
