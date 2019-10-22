@@ -68,7 +68,12 @@ def Jesus_22998438():
     """
     Recibe como parámetro una cadena y retorma una lista con las consonantes de la cadena.
     """
-    pass
+    consonants = set("bcdfghjklmnpqrstvwxyz")
+    result = []
+    for caracter in cadena:
+      if caracter.lower() in consonants:
+        result.append(caracter)
+    return result
 
 
 def Jose_27525799():
