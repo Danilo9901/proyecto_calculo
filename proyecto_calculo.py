@@ -109,13 +109,18 @@ def Miguel_26842695(lista):
     return min
     
 
-
-def Norlie_26707950():
+def Norlie_26707950(a,b,c):
     """
     Recibe como parámetro a, b, c y retorma el máximo.
     """
-    pass
-
+    if a>b and a>c:
+        return a
+    else:
+        if b>c:
+            return b
+        else:
+            return c
+    
 
 def Wuilmer_26625191(cadena):
     """
