@@ -14,11 +14,17 @@ def Alejandro_27525819():
     pass
 
 
-def Anibal_26887484():
-    """
-    Recibe como parámetro una cadena y retorna una lista con las vocales de la cadena.
-    """
-    pass
+def Anibal_26887484(cadena):
+  """
+  Recibe como parámetro una cadena y retorna una lista con las vocales de la cadena.
+  """
+  "Lower y set inspiradas de la funcion de Jesus_22998438"
+  vocales = set('aeiou')
+  lista_vocales = []
+  for letra in cadena.lower():
+   if letra in vocales:
+      lista_vocales.append(letra) 
+  return lista_vocales  
 
 
 def Ashly_27424492():
