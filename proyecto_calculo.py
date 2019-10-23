@@ -92,7 +92,7 @@ def Mauricio_27202233(cadena):
     """
     Recibe como parámetro una cadena y retorna la cadena invertida.
     """
-    return (cadena[::-1])
+    return cadena[::-1]
     
 
 
