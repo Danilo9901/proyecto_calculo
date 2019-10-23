@@ -111,9 +111,10 @@ def Norlie_26707950():
     pass
 
 
-def Wuilmer_26625191():
+def Wuilmer_26625191(cadena):
     """
     Recibe como paŕametro una cadena y retorna el número de caracteres de la cadena.
     """
-    pass
+    tam=len(cadena)
+    return tam
 
