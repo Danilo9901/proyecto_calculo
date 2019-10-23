@@ -62,11 +62,11 @@ def Estefano_26778542():
     pass
 
 
-def Hector_25967387(list):
+def Hector_25967387(lista):
     """
     Recibe como parámetro una lista y retorna la lista invertida.
     """
-    return list[::-1]
+    return lista[::-1]
     
 
 
