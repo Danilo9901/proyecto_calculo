@@ -88,11 +88,12 @@ def Jose_27525799():
     pass
 
 
-def Mauricio_27202233():
+def Mauricio_27202233(cadena):
     """
     Recibe como parámetro una cadena y retorna la cadena invertida.
     """
-    pass
+    return (cadena[::-1])
+    
 
 
 def Miguel_26842695(lista):
