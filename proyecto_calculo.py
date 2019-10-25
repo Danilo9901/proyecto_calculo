@@ -20,16 +20,16 @@ def Alejandro_27525819(lista):
 
 
 def Anibal_26887484(cadena):
-  """
-  Recibe como parámetro una cadena y retorna una lista con las vocales de la cadena.
-  """
-  "Lower y set inspiradas de la funcion de Jesus_22998438"
-  vocales = set('aeiou')
-  lista_vocales = []
-  for letra in cadena.lower():
-   if letra in vocales:
+    """
+    Recibe como parámetro una cadena y retorna una lista con las vocales de la cadena.
+    """
+    "Lower y set inspiradas de la funcion de Jesus_22998438"
+    vocales = set('aeiou')
+    lista_vocales = []
+    for letra in cadena.lower():
+    if letra in vocales:
       lista_vocales.append(letra) 
-  return lista_vocales  
+    return lista_vocales
 
 
 def Ashly_27424492():
@@ -78,7 +78,6 @@ def Hector_25967387(lista):
     Recibe como parámetro una lista y retorna la lista invertida.
     """
     return lista[::-1]
-    
 
 
 def Jesus_22998438(cadena):
@@ -105,7 +104,6 @@ def Mauricio_27202233(cadena):
     Recibe como parámetro una cadena y retorna la cadena invertida.
     """
     return cadena[::-1]
-    
 
 
 def Miguel_26842695(lista):
@@ -141,4 +139,3 @@ def Wuilmer_26625191(cadena):
     """
     tam=len(cadena)
     return tam
-
