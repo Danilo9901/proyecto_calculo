@@ -34,7 +34,6 @@ def Ashly_27424492(diccionario):
     lista = list()
     for valor in diccionario.keys():
         lista.append(valor)
-    
     return lista
 
 
