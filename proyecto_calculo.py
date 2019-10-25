@@ -32,11 +32,14 @@ def Anibal_26887484(cadena):
     return lista_vocales
 
 
-def Ashly_27424492():
+def Ashly_27424492(diccionario):
     """
     Recibe como parámetro un diccionario y retorna una lista con los valores del diccionario.
     """
-    pass
+    lista = list()
+    for valor in diccionario.keys():
+        lista.append(valor)
+    return lista
 
 
 def Danilo_27424264():
