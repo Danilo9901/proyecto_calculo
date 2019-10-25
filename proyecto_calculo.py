@@ -7,11 +7,16 @@ Este código fue generado por:
 https://github.com/ejdecena/calculo_numerico/codigos/generar_proyecto_pr.py
 """
 
-def Alejandro_27525819():
+
+def Alejandro_27525819(lista):
     """
     Recibe como parámetro una lista y retorna el promedio de la lista.
     """
-    pass
+    sum=0
+    for i in range(0,len(lista)):
+	    sum=sum+lista[i]
+    result=sum/len(lista)
+    return result
 
 
 def Anibal_26887484(cadena):
