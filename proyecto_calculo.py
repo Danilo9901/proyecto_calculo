@@ -42,11 +42,17 @@ def Ashly_27424492(diccionario):
     return lista
 
 
-def Danilo_27424264():
+def Danilo_27424264(a,b,c):
     """
     Recibe como parámetro los valores a, b, c y retorna el mínimo.
     """
-    pass
+    if a < b and a < c:
+        return a
+    else:
+        if b < c:
+            return b
+        else:
+            return c
 
 
 def Diego_27650623(diccionario):
