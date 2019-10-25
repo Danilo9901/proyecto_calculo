@@ -41,11 +41,11 @@ def Danilo_27424264():
     pass
 
 
-def Diego_27650623():
+def Diego_27650623(diccionario):
     """
     Recibe como parámetro un diccionario y retorna una lista con las claves del diccionario.
-    """
-    pass
+    """  
+    return list(diccionario.keys())
 
 
 def Enrique_27000054():
