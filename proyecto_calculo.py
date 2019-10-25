@@ -7,6 +7,7 @@ Este código fue generado por:
 https://github.com/ejdecena/calculo_numerico/codigos/generar_proyecto_pr.py
 """
 
+
 def Alejandro_27525819(lista):
     """
     Recibe como parámetro una lista y retorna el promedio de la lista.
@@ -18,11 +19,17 @@ def Alejandro_27525819(lista):
     return result
 
 
-def Anibal_26887484():
-    """
-    Recibe como parámetro una cadena y retorna una lista con las vocales de la cadena.
-    """
-    pass
+def Anibal_26887484(cadena):
+  """
+  Recibe como parámetro una cadena y retorna una lista con las vocales de la cadena.
+  """
+  "Lower y set inspiradas de la funcion de Jesus_22998438"
+  vocales = set('aeiou')
+  lista_vocales = []
+  for letra in cadena.lower():
+   if letra in vocales:
+      lista_vocales.append(letra) 
+  return lista_vocales  
 
 
 def Ashly_27424492():
@@ -39,11 +46,11 @@ def Danilo_27424264():
     pass
 
 
-def Diego_27650623():
+def Diego_27650623(diccionario):
     """
     Recibe como parámetro un diccionario y retorna una lista con las claves del diccionario.
-    """
-    pass
+    """  
+    return list(diccionario.keys())
 
 
 def Enrique_27000054():
@@ -60,18 +67,24 @@ def Estefano_26778542():
     pass
 
 
-def Hector_25967387():
+def Hector_25967387(lista):
     """
     Recibe como parámetro una lista y retorna la lista invertida.
     """
-    pass
+    return lista[::-1]
+    
 
 
-def Jesus_22998438():
+def Jesus_22998438(cadena):
     """
     Recibe como parámetro una cadena y retorma una lista con las consonantes de la cadena.
     """
-    pass
+    consonants = set("bcdfghjklmnpqrstvwxyz")
+    result = []
+    for caracter in cadena:
+      if caracter.lower() in consonants:
+        result.append(caracter)
+    return result
 
 
 def Jose_27525799():
@@ -81,30 +94,45 @@ def Jose_27525799():
     pass
 
 
-def Mauricio_27202233():
+def Mauricio_27202233(cadena):
     """
     Recibe como parámetro una cadena y retorna la cadena invertida.
     """
-    pass
+    return cadena[::-1]
+    
 
 
-def Miguel_26842695():
+def Miguel_26842695(lista):
     """
     Recibe como parámetro una lista y retorna el mínimo valor de la lista.
     """
-    pass
+    
+    min= lista[0]
+    
+    for i in lista:
+        if i < min:
+            min=i
 
+    return min
+    
 
-def Norlie_26707950():
+def Norlie_26707950(a,b,c):
     """
     Recibe como parámetro a, b, c y retorma el máximo.
     """
-    pass
+    if a>b and a>c:
+        return a
+    else:
+        if b>c:
+            return b
+        else:
+            return c
+    
 
-
-def Wuilmer_26625191():
+def Wuilmer_26625191(cadena):
     """
     Recibe como paŕametro una cadena y retorna el número de caracteres de la cadena.
     """
-    pass
+    tam=len(cadena)
+    return tam
 
