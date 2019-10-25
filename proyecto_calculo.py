@@ -60,11 +60,17 @@ def Enrique_27000054():
     pass
 
 
-def Estefano_26778542():
+def Estefano_26778542(lista):
     """
     Recibe como parámetro una lista y retorna el máximo valor de la lista.
     """
-    pass
+    maximo= lista[0]
+    
+    for i in lista:
+        if  maximo < i:
+            maximo=i
+
+    return maximo
 
 
 def Hector_25967387(lista):
