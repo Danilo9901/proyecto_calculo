@@ -1,107 +1,116 @@
 #!/usr/bin/env python3
-"""Proyecto sobre Python y el workflow Pull-Request en GitHub.
-
-Cada participante debe completar su función y luego solicitar el Pull-Request.
-
-Este código fue generado por:
-https://github.com/ejdecena/calculo_numerico/codigos/generar_proyecto_pr.py
-"""
+"""Respuestas esperadas de las funciones del proyecto."""
 
 
-def Alejandro_27525819():
+def Alejandro_27525819(lista):
     """
     Recibe como parámetro una lista y retorna el promedio de la lista.
     """
-    pass
+    return sum(lista)/len(lista)
 
 
-def Anibal_26887484():
+def Anibal_26887484(cadena):
     """
     Recibe como parámetro una cadena y retorna una lista con las vocales de la cadena.
     """
-    pass
+    vocales     = "a", "e", "i", "o", "u"
+    set_vocales = set()
+    for c in cadena:
+        if c.lower() in vocales:
+            set_vocales.add(c.lower())
+    return list(set_vocales)
 
 
-def Ashly_27424492():
+def Ashly_27424492(diccionario):
     """
     Recibe como parámetro un diccionario y retorna una lista con los valores del diccionario.
     """
-    pass
+    return list(diccionario.values())
 
 
-def Danilo_27424264():
+def Danilo_27424264(a, b, c):
     """
     Recibe como parámetro los valores a, b, c y retorna el mínimo.
     """
-    pass
+    return min(a, b, c)
 
 
-def Diego_27650623():
+def Diego_27650623(diccionario):
     """
     Recibe como parámetro un diccionario y retorna una lista con las claves del diccionario.
     """
-    pass
+    return list(diccionario.keys())
 
 
-def Enrique_27000054():
+def Enrique_27000054(diccionario):
     """
     Recibe como parámetro un diccionario y retorna el mínimo valor del diccionario.
     """
-    pass
+    return min(diccionario.values())
 
 
-def Estefano_26778542():
+def Estefano_26778542(lista):
     """
     Recibe como parámetro una lista y retorna el máximo valor de la lista.
     """
-    pass
+    return max(lista)
 
 
-def Hector_25967387():
+def Hector_25967387(lista):
     """
     Recibe como parámetro una lista y retorna la lista invertida.
     """
-    pass
+    return list(reversed(lista))
 
 
-def Jesus_22998438():
+def Jesus_22998438(cadena):
     """
     Recibe como parámetro una cadena y retorma una lista con las consonantes de la cadena.
     """
-    pass
+    import string
+
+    letras  = set(string.ascii_lowercase)
+    vocales = set(("a", "e", "i", "o", "u"))
+
+    consonantes = letras - vocales
+    cons_cadena = set()
+    for c in cadena:
+        if c.lower() in consonantes:
+            cons_cadena.add(c)
+
+    return list(cons_cadena)
 
 
-def Jose_27525799():
+def Jose_27525799(diccionario):
     """
     Recibe como parámetro un diccionario y retorna el máximo valor del diccionario.
     """
-    pass
+    return max(diccionario.values())
 
 
-def Mauricio_27202233():
+def Mauricio_27202233(cadena):
     """
     Recibe como parámetro una cadena y retorna la cadena invertida.
     """
-    pass
+    return "".join(reversed(cadena))
 
 
-def Miguel_26842695():
+def Miguel_26842695(lista):
     """
     Recibe como parámetro una lista y retorna el mínimo valor de la lista.
     """
-    pass
+    return min(lista)
 
 
-def Norlie_26707950():
+def Norlie_26707950(a, b, c):
     """
     Recibe como parámetro a, b, c y retorma el máximo.
     """
-    pass
+    return max(a, b, c)
 
 
-def Wuilmer_26625191():
+def Wuilmer_26625191(cadena):
     """
     Recibe como paŕametro una cadena y retorna el número de caracteres de la cadena.
     """
-    pass
-
+    return len(cadena)
